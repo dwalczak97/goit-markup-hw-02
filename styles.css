@@ -39,10 +39,30 @@ a {
 .section1 {
   background-color: #2e2f42;
   color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
 }
-.btnn {
+.btn {
   background-color: #4d5ae5;
+  cursor: pointer;
 }
-.btnn:hover {
+.btn:hover {
   background-color: #404bbf;
+}
+.list-team {
+  background: #f4f4fd;
+}
+li {
+  background-color: #fff;
+}
+.heading-features {
+  font-weight: 500;
+  font-size: 20px;
+}
+p {
+  font-size: 16px;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
 }
