@@ -55,6 +55,9 @@ a {
 .contacts-one:active {
   color: #404bbf;
 }
+.contacts-one:focus {
+  color: #404bbf;
+}
 .section-one {
   background-color: #2e2f42;
   text-align: center;
@@ -76,13 +79,13 @@ a {
   color: #fff;
   cursor: pointer;
 }
-.btn:hover .btn:focus {
+.btn:hover {
   background-color: #404bbf;
   color: #404bbf;
 }
-
-.list-team {
-  background: #f4f4fd;
+.btn:focus {
+  background-color: #404bbf;
+  color: #404bbf;
 }
 
 .heading-features {
@@ -98,6 +101,13 @@ a {
   letter-spacing: 0.02em;
 }
 
+.section-team {
+  background: #f4f4fd;
+}
+.list-team {
+  background: #fff;
+}
+
 .section-third-heading {
   font-weight: 700;
   font-size: 36px;
@@ -107,9 +117,7 @@ a {
   text-align: center;
   color: #2e2f42;
 }
-.list-team {
-  background-color: #ffffff;
-}
+
 .list-team-heading {
   font-weight: 500;
   font-size: 20px;
