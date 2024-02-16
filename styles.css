@@ -27,7 +27,11 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.navigation:hover .navigation:active {
+
+.navigation:hover {
+  color: #404bbf;
+}
+.navigation:active {
   color: #404bbf;
 }
 
@@ -42,7 +46,10 @@ a {
 .contacts-one {
   color: #434455;
 }
-.contacts-one:hover .contacts-one:active {
+.contacts-one:hover {
+  color: #404bbf;
+}
+.contacts-one:active {
   color: #404bbf;
 }
 .section-one {
@@ -53,7 +60,7 @@ a {
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
 }
 .btn {
@@ -79,13 +86,17 @@ li {
 .heading-features {
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-p {
+.section-second-paragraph {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-h2 {
+
+.section-third-heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
@@ -93,4 +104,19 @@ h2 {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+}
+.list-team-heading {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.section-third-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
 }
