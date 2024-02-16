@@ -11,7 +11,7 @@ a {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -24,35 +24,46 @@ a {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
-.navigation:hover {
+.navigation:hover .navigation:active {
   color: #404bbf;
 }
-.activ:active {
-  color: #404bbf;
-}
+
 .contacts {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
-.contacts:hover .contacts:active {
+.contacts-one {
+  color: #434455;
+}
+.contacts-one:hover .contacts-one:active {
   color: #404bbf;
 }
 .section-one {
   background-color: #2e2f42;
+  text-align: center;
+}
+.section-one-heading {
   color: #ffffff;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 .btn {
   font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
   cursor: pointer;
 }
 .btn:hover .btn:active {
